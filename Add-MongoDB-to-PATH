@@ -13,3 +13,8 @@ If you type mongo in the terminal, you get something like command mongo not foun
 
    line in the end.
 
+3. I failed at the step 2, I try to write this line into .bashrc_profile using terminal
+
+   echo 'export PATH=/Users/frida/mongodb/bin:$PATH' >>~/.bash_profile
+   
+   This can help to write path into .bash_profile without opening that profile.
