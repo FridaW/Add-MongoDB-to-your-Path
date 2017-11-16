@@ -1,0 +1,15 @@
+If you type mongo in the terminal, you get something like command mongo not found
+
+
+1. Open /usr/local/bin
+
+   Copy the binaries from mongodb/bin, to /usr/local/bin.
+
+
+
+2. Open the .bashrc file and add 
+
+   export PATH=<mongodb-install-directory>/mongodb/bin:$PATH 
+
+   line in the end.
+
